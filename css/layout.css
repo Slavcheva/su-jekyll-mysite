@@ -1,3 +1,6 @@
+body{
+
+}
 .site {
     max-width: var(--layout-main-width);
     margin: 0 auto;
