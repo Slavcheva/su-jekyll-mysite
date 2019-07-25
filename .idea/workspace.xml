@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3bdfd74-30a2-401e-9390-38282d08951b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/css/animations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/galery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/site-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/site-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/transitions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/typography.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/css/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="431">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -80,10 +71,10 @@
         <option value="$PROJECT_DIR$/css/site.css" />
         <option value="$PROJECT_DIR$/css/transitions.css" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_assets/css/variables.css" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -177,12 +168,12 @@
       <workItem from="1563814619782" duration="1034000" />
       <workItem from="1563855254105" duration="11000" />
       <workItem from="1563856302601" duration="4278000" />
-      <workItem from="1564059387952" duration="4159000" />
+      <workItem from="1564059387952" duration="4511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44199000" />
+    <option name="totallyTimeSpent" value="44551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,13 +430,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_assets/css/variables.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -457,6 +441,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
