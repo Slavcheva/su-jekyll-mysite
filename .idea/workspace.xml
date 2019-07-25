@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3bdfd74-30a2-401e-9390-38282d08951b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/animations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/galery.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/galery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/site-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/site-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/transitions.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/transitions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/typography.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/16/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/07/16/welcome-to-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/animations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/animations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/galery.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/galery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/gallery/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jekyll/update/2019/07/16/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jekyll/update/2019/07/16/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/galery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/site-footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/site-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/variables.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -195,12 +177,12 @@
       <workItem from="1563814619782" duration="1034000" />
       <workItem from="1563855254105" duration="11000" />
       <workItem from="1563856302601" duration="4278000" />
-      <workItem from="1564059387952" duration="3985000" />
+      <workItem from="1564059387952" duration="4159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44025000" />
+    <option name="totallyTimeSpent" value="44199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,7 +456,7 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
