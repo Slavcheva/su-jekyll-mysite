@@ -1,6 +1,11 @@
 body{
 
 }
+
+.page-blog {
+    background: url('/images/body_bgrd.jpg');
+}
+
 .site {
     max-width: var(--layout-main-width);
     margin: 0 auto;
