@@ -9,8 +9,10 @@
 
 @import "navigation.css";
 
-@import "galery.css";
 
-@import "transitions.css";
+/*@import "transitions.css";*/
 @import "animations.css";
 
+/*@import "galery.css";*/
+@import "galery-grid.css";
+@import "modal.css";
