@@ -5,13 +5,24 @@ order: 1
 icon: fa-rss
 permalink: /blog/
 ---
+<section class="mag">
+    <div class="content">
+
+        {% include article.html class="huge" %}
+        {% include article.html class="featured" %}
+        {% include article.html %}
+        {% include article.html %}
+        {% include article.html class="featured" %}
+        {% include article.html %}
+        {% include article.html %}
+        {% include article.html %}
+
+    </div>
+</section>
 
 <section>
-    <header>
-        <h2>Latest posts</h2>
-    </header>
-
     <div class="content">
+
         <ul>
             {% for post in site.posts %}
             <li>
@@ -19,5 +30,6 @@ permalink: /blog/
             </li>
             {% endfor %}
         </ul>
+
     </div>
 </section>
