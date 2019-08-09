@@ -1,6 +1,27 @@
-body{
+//body{
+//  //background: floralwhite;
+//  background-image: url("/images/aboutSidebar.jpg");
+//}
 
+.image {
+  width: 60em;
+  height: 40em;
+  display: block;
+  position: relative;
+
+  &::after {
+    content: "";
+    background: url("/images/aboutSidebar.jpg");
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
 }
+
 
 .site {
     max-width: var(--layout-main-width);
@@ -9,17 +30,20 @@ body{
 
     @include bp(laptop){
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr;
         grid-column-gap: 4em;
         grid-template-areas:
-                "header header"
-                "main sidebar"
-                "footer footer";
+                "header"
+                "nav"
+                "main"
+                "footer";
 
       .site-header {
         grid-area: header;
       }
-
+      .sub-nav{
+        grid-area: nav;
+      }
       .site-main {
         grid-area: main;
       }
@@ -41,6 +65,10 @@ body{
         margin-left: auto;
       }
     }
+  section{
+    padding-top: 1em;
+  }
 }
+
 
 

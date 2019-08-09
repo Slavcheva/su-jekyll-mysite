@@ -1,7 +1,22 @@
-.site-footer{
-    border-top: 1px solid var(--color-border-default);
-    margin-top: var(--spacing-layout-elements);
-    padding-top: calc( var(--spacing-layout-elements) / 2);
+.site-footer {
+  border-top: 1px solid var(--color-border-default);
+  margin-top: var(--spacing-layout-elements);
+  padding-top: calc(var(--spacing-layout-elements) / 2);
 
+  div {
+    display: grid;
+    grid-template-columns: 9em 12em 10em auto 13em;
+    grid-column-gap: 1em;
+
+    .social {
+      font-size: 1.5em;
+
+      a {
+        color: var(--color-body-text);
+        padding-left: 0.5em;
+      }
+    }
+
+  }
 }
 

@@ -1,0 +1,75 @@
+form {
+  background: rgb(173, 216, 230);
+  border-radius: 0.3rem;
+  border: none;
+  max-width: 40rem;
+  color: darkslategrey;
+  display: block;
+}
+
+form fieldset {
+
+}
+
+form fieldset p {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+
+}
+
+form fieldset label {
+  width: 10rem;
+}
+
+.radio-label {
+  width: 4.3rem;
+}
+
+form fieldset span {
+  padding: 0 1rem;
+}
+
+#mess {
+
+}
+
+form fieldset select {
+  width: 21rem;
+  border-radius: 0;
+}
+
+form fieldset input {
+  font-size: 10px;
+  width: 21rem;
+  padding: 0.5rem;
+}
+
+form fieldset input[type="radio"],
+form fieldset input[type="checkbox"] {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form fieldset input[type="submit"] {
+  width: auto;
+  background: #336699;
+  color: white;
+  border-radius: 0.3rem;
+  padding: 1rem 3rem;
+
+}
+.radio-btn{
+
+}
+h2 {
+  text-align: center;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+
+}
