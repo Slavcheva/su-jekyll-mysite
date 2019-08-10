@@ -3,30 +3,30 @@
 //  background-image: url("/images/aboutSidebar.jpg");
 //}
 
-.image {
-  width: 60em;
-  height: 40em;
-  display: block;
-  position: relative;
-
-  &::after {
-    content: "";
-    background: url("/images/aboutSidebar.jpg");
-    opacity: 0.4;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
-}
+//.image {
+//  width: 60em;
+//  height: 40em;
+//  display: block;
+//  position: relative;
+//
+//  &::after {
+//    content: "";
+//    background: url("/images/aboutSidebar.jpg");
+//    opacity: 0.4;
+//    top: 0;
+//    left: 0;
+//    bottom: 0;
+//    right: 0;
+//    position: absolute;
+//    z-index: -1;
+//  }
+//}
 
 
 .site {
-  max-width: var(--layout-main-width);
+  //max-width: var(--layout-main-width);
   margin: 0 auto;
-  padding: 2em;
+  //padding: 2em;
 
   @include bp(laptop) {
     display: grid;
@@ -60,11 +60,14 @@
     .site-header nav {
       margin-left: auto;
     }
+    .content{
+      padding: 0 2em 0 2em;
+    }
   }
 
-  section {
-    padding-top: 1em;
-  }
+  //section {
+  //  padding-top: 1em;
+  //}
 
   .index {
     position: relative;
@@ -76,11 +79,26 @@
     .ground{
       position: absolute;
       top: 2em; left:2em;
-      color: #FFFFFF;
+      color: var(--color-elements-text);
       font-size: 2em;
-      font-family: 'Ma Shan Zheng', cursive;
+      font-family: 'Signika', sans-serif;
     }
   }
+  h2{
+    color: var(--color-link-default);
+    text-align: center;
+    margin-top: 1em;
+
+    &:after {
+      display: block;
+      content: '';
+      width: 2em;
+      height: 4px;
+      background: var(--color-link-default);
+      margin: 0.5em auto 2em auto;
+    }
+  }
+
 }
 
 

@@ -1,0 +1,103 @@
+ul.team-list {
+  background: #747860;
+  padding: 0 0 2em 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+
+  li {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 3.5em;
+    border-bottom: 1px solid #fff;
+    & > span{
+      height: 18em;
+    }
+  }
+
+  span {
+    display: block;
+    grid-column: 1;
+  }
+
+  div {
+    display: block;
+    grid-column: 2/ span 2 ;
+    padding: 4em;
+  }
+
+  .person-avatar {
+    width: 100%;
+    //height: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      //margin: 2em;
+    }
+  }
+  .person-name {
+    font-weight: bold;
+  }
+
+  .person-position {
+
+  }
+
+  .person-message + .person-name,
+  .person-position + .person-message {
+    padding-top: 1.5em;
+  }
+
+}
+
+/**/
+//
+//@media (min-width: 900px) {
+//  ul.team-list li {
+//    flex: 0 0 30%;
+//  }
+//}
+
+
+.person-avatar {
+  display: block;
+  //border-radius: 95%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0.2em 0.5rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.person-avatar:before,
+.person-avatar:after {
+  display: block;
+  content: '';
+}
+
+.person-avatar:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  //border-radius: 95%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.5) inset;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.person-avatar:after {
+  padding-top: 100%;
+}
+
+.person-avatar img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  z-index: 5;
+}

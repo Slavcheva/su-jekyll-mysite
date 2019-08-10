@@ -3,7 +3,7 @@ form {
   border-radius: 0.5em;
   border: 2px solid var(--color-link-default);
   max-width: 60%;
-  color: darkslategrey;
+  color: var(--color-link-default);
   display: block;
   padding: 2em 0 2em 0;
   margin: 0 auto;
@@ -19,6 +19,7 @@ form {
     width: 60%;
     border-radius: 0.3em;
     border: 1px solid var(--color-link-default);
+    padding: 0.2em;
   }
 
   label {
@@ -29,24 +30,25 @@ form {
     display: flex;
     justify-content: center;
   }
+
 }
 
 
-form fieldset span {
-  padding: 0 1rem;
-}
-
-
-form fieldset select {
-  width: 60%;
-  border-radius: 0.3em;
-}
-
-form fieldset input {
-  font-size: 10px;
-  width: 21em;
-  padding: 0.5rem;
-}
+//form fieldset span {
+//  padding: 0 1rem;
+//}
+//
+//
+//form fieldset select {
+//  width: 60%;
+//  border-radius: 0.3em;
+//}
+//
+//form fieldset input {
+//  font-size: 10px;
+//  width: 21em;
+//  padding: 0.5rem;
+//}
 
 //form fieldset input[type="radio"]{
 //  width: auto;
@@ -63,14 +65,14 @@ form fieldset input {
 //  font-size: 1em;
 //
 //}
-.radio-btn {
-  display: flex;
-  flex-direction: row;
-
-  p {
-    width: auto;
-  }
-}
+//.radio-btn {
+//  display: flex;
+//  flex-direction: row;
+//
+//  p {
+//    width: auto;
+//  }
+//}
 
 //h2 {
 //  text-align: center;

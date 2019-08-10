@@ -20,9 +20,9 @@
                 <a href="{{ site.baseurl }}/"><i class="fab fa-pagelines"></i> {{site.title}}</a>
             </h1>
             {% else %}
-            <p class="site-title">
-                <a href="{{ site.baseurl }}/"><i class="fab fa-pagelines"> {{site.title}}</i></a>
-            </p>
+            <h1 class="site-title">
+                <a href="{{ site.baseurl }}/"><i class="fab fa-pagelines"></i> {{site.title}}</a>
+            </h1>
             {% endif %}
 
             {% include navigation.html %}
@@ -43,7 +43,7 @@
 
 
             {% if page.title %}
-            <!--            <h1>{{page.title}}</h1>-->
+<!--                        <h1>{{page.title}}</h1>-->
             {% endif %}
 
             {{content}}
