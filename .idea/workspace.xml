@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3bdfd74-30a2-401e-9390-38282d08951b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/about-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/about-navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sub-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sub-navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-career.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-career.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-partners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-team.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/16/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/07/16/welcome-to-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/career/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/career/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/partners/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/partners/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/team/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/animations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/projects.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/boss.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/garden-team.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/maintenance/maintenance5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/maintenance3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/man.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/waman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jekyll/update/2019/07/16/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jekyll/update/2019/07/16/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/prices/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/prices/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/services/design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/design/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/services/irrigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/irrigation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/services/maintenance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/maintenance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boss.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/boss.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/garden-team.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/garden-team.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/maintenance/maintenance5.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/design/design5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/maintenance3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/maintenance/maintenance5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/man.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/man.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/waman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/woman.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-design.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-irrigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-irrigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-maintеnance.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-maintеnance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-    </list>
+    <list default="true" id="a3bdfd74-30a2-401e-9390-38282d08951b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +108,7 @@
       <workItem from="1565323389645" duration="3894000" />
       <workItem from="1565367000664" duration="3772000" />
       <workItem from="1565416269277" duration="43000" />
-      <workItem from="1565416367170" duration="7375000" />
+      <workItem from="1565416367170" duration="7639000" />
     </task>
     <servers />
   </component>
