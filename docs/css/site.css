@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Signika&display=swap");
 :root {
   --font-size-body: 14px;
   --font-size-body-larger: 16px;
@@ -7,7 +10,7 @@
   --layout-main-width: 60em;
   --color-body-bgrd: #fff;
   --color-body-text: #000;
-  --color-link-default: #07995e;
+  --color-link-default: rgba(7, 153, 94, 0.98);
   --color-border-default:#999;
   --spacing-layout-elements:2em; }
 
@@ -18,7 +21,7 @@
 
 html {
   box-sizing: border-box;
-  font: var(--font-size-body)/1.5 "Fira Sans", Georgia, serif; }
+  font: var(--font-size-body)/1.5 "PT Sans", sans-serif; }
 
 @media (min-width: 600px) {
   html {
@@ -42,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1em;
   margin-bottom: 0.5em;
   font-weight: normal;
-  font-family: Merriweather, serif; }
+  font-family: 'Signika', sans-serif; }
 
 h1 {
   font-size: 2.6em; }
@@ -159,6 +162,18 @@ blockquote .author:before {
         margin-left: auto; } }
   .site section {
     padding-top: 1em; }
+  .site .index {
+    position: relative; }
+    .site .index img {
+      width: 100%;
+      height: auto; }
+    .site .index .ground {
+      position: absolute;
+      top: 2em;
+      left: 2em;
+      color: #FFFFFF;
+      font-size: 2em;
+      font-family: 'Ma Shan Zheng', cursive; }
 
 .page-blog .site {
   grid-template-areas: "header header" "main main" "footer footer"; }
@@ -558,53 +573,42 @@ body.loaded .site-nav li {
   height: auto; }
 
 form {
-  background: lightblue;
-  border-radius: 0.3rem;
-  border: none;
-  max-width: 40rem;
+  border-radius: 0.5em;
+  border: 2px solid var(--color-link-default);
+  max-width: 60%;
   color: darkslategrey;
-  display: block; }
-
-form fieldset p {
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: stretch; }
-
-form fieldset label {
-  width: 10rem; }
-
-.radio-label {
-  width: 4.3rem; }
+  display: block;
+  padding: 2em 0 2em 0;
+  margin: 0 auto; }
+  form p {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: stretch; }
+  form input, form textarea, form select {
+    width: 60%;
+    border-radius: 0.3em;
+    border: 1px solid var(--color-link-default); }
+  form label {
+    width: 20%; }
+  form span {
+    display: flex;
+    justify-content: center; }
 
 form fieldset span {
   padding: 0 1rem; }
 
 form fieldset select {
-  width: 21rem;
-  border-radius: 0; }
+  width: 60%;
+  border-radius: 0.3em; }
 
 form fieldset input {
   font-size: 10px;
-  width: 21rem;
+  width: 21em;
   padding: 0.5rem; }
 
-form fieldset input[type="radio"],
-form fieldset input[type="checkbox"] {
-  width: auto;
+.radio-btn {
   display: flex;
-  flex-direction: column; }
-
-form fieldset input[type="submit"] {
-  width: auto;
-  background: #336699;
-  color: white;
-  border-radius: 0.3rem;
-  padding: 1rem 3rem; }
-
-h2 {
-  text-align: center; }
-
-#submit {
-  display: flex;
-  justify-content: center; }
+  flex-direction: row; }
+  .radio-btn p {
+    width: auto; }

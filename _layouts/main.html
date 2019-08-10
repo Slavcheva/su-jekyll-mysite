@@ -15,24 +15,31 @@
 ">
     <div class="site">
         <header class="site-header">
-
             {% if page.home == true %}
             <h1 class="site-title">
                 <a href="{{ site.baseurl }}/"><i class="fab fa-pagelines"></i> {{site.title}}</a>
             </h1>
             {% else %}
             <p class="site-title">
-                <a href="{{ site.baseurl }}/">{{site.title}}</a>
+                <a href="{{ site.baseurl }}/"><i class="fab fa-pagelines"> {{site.title}}</i></a>
             </p>
             {% endif %}
 
             {% include navigation.html %}
-<!--            {% include navigation.html location="header" %}-->
-
+            <!--            {% include navigation.html location="header" %}-->
 
         </header>
 
         <main class="site-main">
+
+            {% if page.service == true %}
+            {% include sub-navigation.html %}
+            {% endif %}
+
+            {% if page.about == true %}
+            {% include about-navigation.html %}
+            {% endif %}
+
 
 
             {% if page.title %}

@@ -24,49 +24,62 @@
 
 
 .site {
-    max-width: var(--layout-main-width);
-    margin: 0 auto;
-    padding: 2em;
+  max-width: var(--layout-main-width);
+  margin: 0 auto;
+  padding: 2em;
 
-    @include bp(laptop){
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-column-gap: 4em;
-        grid-template-areas:
-                "header"
-                "nav"
-                "main"
-                "footer";
+  @include bp(laptop) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 4em;
+    grid-template-areas: "header" "nav" "main" "footer";
 
-      .site-header {
-        grid-area: header;
-      }
-      .sub-nav{
-        grid-area: nav;
-      }
-      .site-main {
-        grid-area: main;
-      }
-
-      .site-sidebar {
-        grid-area: sidebar;
-      }
-
-      .site-footer {
-        grid-area: footer;
-      }
-
-      .site-header {
-        display: flex;
-        align-items: center;
-      }
-
-      .site-header nav {
-        margin-left: auto;
-      }
+    .site-header {
+      grid-area: header;
     }
-  section{
+    .sub-nav {
+      grid-area: nav;
+    }
+    .site-main {
+      grid-area: main;
+    }
+
+    .site-sidebar {
+      grid-area: sidebar;
+    }
+
+    .site-footer {
+      grid-area: footer;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+    }
+
+    .site-header nav {
+      margin-left: auto;
+    }
+  }
+
+  section {
     padding-top: 1em;
+  }
+
+  .index {
+    position: relative;
+    img {
+      width: 100%;
+      height: auto;
+      //opacity: 0.5;
+    }
+    .ground{
+      position: absolute;
+      top: 2em; left:2em;
+      color: #FFFFFF;
+      font-size: 2em;
+      font-family: 'Ma Shan Zheng', cursive;
+    }
   }
 }
 

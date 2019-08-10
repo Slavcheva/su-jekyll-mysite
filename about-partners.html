@@ -1,11 +1,13 @@
 ---
 layout: main
 about-title: Партньори
+sub: about
+about: true
 order: 3
 permalink: about/partners/
 ---
 
-{% include about-navigation.html %}
+<!--{% include about-navigation.html %}-->
 
 <section>
 
@@ -15,9 +17,9 @@ permalink: about/partners/
     </header>
 
     <div class="content logo">
-        <span><img src="/images/logos/gardena-logo.png" class="logo"></span>
-        <span><img src="/images/logos/mrBricolage-logo.png" class="logo"></span>
-        <span><img src="/images/logos/husquarna-logo.png" class="logo"></span>
-        <span><img src="/images/logos/fiskars-logo.png" class="logo"></span>
+        <span><img src="{{ site.baseurl }}/images/logos/gardena-logo.png" class="logo"></span>
+        <span><img src="{{ site.baseurl }}/images/logos/mrBricolage-logo.png" class="logo"></span>
+        <span><img src="{{ site.baseurl }}/images/logos/husquarna-logo.png" class="logo"></span>
+        <span><img src="{{ site.baseurl }}/images/logos/fiskars-logo.png" class="logo"></span>
     </div>
 </section>

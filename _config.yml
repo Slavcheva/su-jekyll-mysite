@@ -45,12 +45,25 @@ exclude:
   - gulpfile.js
   - package.json
   - package-lock.json
-#
+
 #navigation:
 #  - url: /
 #    text: Home
 #  - url: /about/
-#    text: Uslugi
+#    text: За нас
 #    items:
-#      - url: /services/design
+#      - url: /design
 #        text: Design
+#      - url: /design
+#        text: Design
+#      - url: /design
+#        text: Design
+#  - url: /service/
+#    text: Услуги
+#    items:
+#        - url: /design
+#          text: Design
+#        - url: /irrigation
+#          text: irrigation
+#        - url: /maintenance
+#          text: maintenance

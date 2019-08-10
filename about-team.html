@@ -1,11 +1,13 @@
 ---
 layout: main
 about-title: Eкип
+sub: about
+about: true
 order: 1
 permalink: about/team/
 ---
 
-{% include about-navigation.html %}
+<!--{% include about-navigation.html %}-->
 
 <section>
 
@@ -15,6 +17,53 @@ permalink: about/team/
     </header>
 
     <div class="content">
-        Marian Komitoe
+
+        <ul class="team-list">
+            <li>
+                <span class="person-avatar"><img src="{{ site.baseurl }}/images/team/boss.jpg" height="430" width="612"/></span>
+                <span class="person-name">Genghis Khan</span>
+                <span class="person-position">CTO</span>
+                <span class="person-message">Knows his stuff!</span>
+            </li>
+           <li>
+                <span class="person-avatar"><img src="{{ site.baseurl }}/images/team/man.jpg"/></span>
+                <span class="person-name">Genghis Khan</span>
+                <span class="person-position">CTO</span>
+                <span class="person-message">Knows his stuff!</span>
+            </li>
+           <li>
+                <span class="person-avatar"><img src="https://images.unsplash.com/photo-1541418950054-c12804e149d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" height="
+                                                 430" width="auto"/></span>
+                <span class="person-name">Genghis Khan</span>
+                <span class="person-position">CTO</span>
+                <span class="person-message">Knows his stuff!</span>
+            </li>
+           <li>
+                <span class="person-avatar"><img src="{{ site.baseurl }}/images/team/garden-team.jpg" height="430" width="612"/></span>
+                <span class="person-name">Genghis Khan</span>
+                <span class="person-position">CTO</span>
+                <span class="person-message">Knows his stuff!</span>
+            </li>
+        </ul>
     </div>
+
+<!--            <div class="content">-->
+<!--        <div class="person">-->
+<!--            <div class="photo"><img src="{{ site.baseurl }}/images/team/boss.jpg" height="430" width="612"/></div>-->
+<!--            <div class="person-info"></div>-->
+<!--        </div>-->
+<!--        <div class="person">-->
+<!--            <div class="photo"></div>-->
+<!--            <div class="person-info"></div>-->
+<!--        </div>-->
+<!--        <div class="person">-->
+<!--            <div class="photo"></div>-->
+<!--            <div class="person-info"></div>-->
+<!--        </div>-->
+<!--        <div class="person">-->
+<!--            <div class="photo"></div>-->
+<!--            <div class="person-info"></div>-->
+<!--        </div>-->
+
+<!--    </div>-->
 </section>
