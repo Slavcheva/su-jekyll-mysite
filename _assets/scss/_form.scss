@@ -1,12 +1,11 @@
 form {
-  //background: rgb(195, 230, 207);
   border-radius: 0.5em;
   border: 2px solid var(--color-link-default);
   max-width: 60%;
   color: var(--color-link-default);
   display: block;
   padding: 2em 0 2em 0;
-  margin: 0 auto;
+  margin: 1em auto;
 
   p {
     padding: 1em;
@@ -30,51 +29,4 @@ form {
     display: flex;
     justify-content: center;
   }
-
 }
-
-
-//form fieldset span {
-//  padding: 0 1rem;
-//}
-//
-//
-//form fieldset select {
-//  width: 60%;
-//  border-radius: 0.3em;
-//}
-//
-//form fieldset input {
-//  font-size: 10px;
-//  width: 21em;
-//  padding: 0.5rem;
-//}
-
-//form fieldset input[type="radio"]{
-//  width: auto;
-//  display: flex;
-//  flex-direction: row;
-//}
-
-//form fieldset input[type="submit"] {
-//  width: auto;
-//  background: #336699;
-//  color: white;
-//  border-radius: 0.3rem;
-//  padding: 0.5rem 2rem;
-//  font-size: 1em;
-//
-//}
-//.radio-btn {
-//  display: flex;
-//  flex-direction: row;
-//
-//  p {
-//    width: auto;
-//  }
-//}
-
-//h2 {
-//  text-align: center;
-//}
-

@@ -26,6 +26,10 @@ li {
 .site-nav {
   padding-right: 2em;
 
+  @include bp(laptop) {
+
+  }
+
   a {
     display: block;
     padding: 0.1em 1em;

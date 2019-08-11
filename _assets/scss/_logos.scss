@@ -1,12 +1,20 @@
-.contacts{
+.contacts {
   display: flex;
-  flex: 0 0 50%;
+  flex: 0 0 40%;
   margin: 1em;
-  div{
-    margin:0 4em 0 1em;
+
+
+  iframe {
+    //padding: 0 3em 1em 0;
+    padding-bottom: 1em;
+    width: 40em;
+    height: 25em;
+  }
+
+  div {
+    margin: 0 1em 0 1em;
   }
 }
-
 
 
 //.gallery {
@@ -108,10 +116,18 @@
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: stretch;
+  justify-content: space-between;
 
   span {
     display: block;
     padding: 5em 2em 6em 2em;
+  }
+}
+
+@include bp(tablet) {
+  .contacts,
+  .logo{
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
