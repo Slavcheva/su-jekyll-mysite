@@ -9,9 +9,6 @@ permalink: /about/
 ---
 
 <section>
-
-    <div class="photo"></div>
-
     <header>
         <h2>Ние ще се създадем градината на мечтите ви</h2>
     </header>
@@ -21,4 +18,17 @@ permalink: /about/
         <p>Предлагаме качествено и прецизно изпълнение на всяка дейност.</p>
         <p>Помагаме на клиентите си да изберат най-правилното за тях решение, като предлагаме идеи и консултации, отговаряйки на всички въпроси и нужди, които могат да възникнат в процеса.</p>
     </div>
+
+    {% for item in nav %}
+    {% if item.sub-title and item.nomainnav != 1 %}
+    <li {% if item.url== page.service %} class="selected" {% endif %}>
+        <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.sub-title }}
+        </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</section>
+<section>
+
 </section>

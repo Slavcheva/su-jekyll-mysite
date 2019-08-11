@@ -246,10 +246,11 @@ form {
     color: #FFFFFF; }
 
 .site-footer {
-  padding: 2em;
+  padding: 2em 2em 0 2em;
   border-top: 1px solid var(--color-border-default);
   background: var(--color-elements-bgrd);
-  color: var(--color-elements-text); }
+  color: var(--color-elements-text);
+  flex-grow: 1; }
   .site-footer div {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -323,12 +324,6 @@ li {
   .about-nav a {
     color: var(--color-link-default);
     font-weight: bold; }
-
-.logo {
-  display: flex; }
-  .logo span {
-    display: block;
-    padding: 2em; }
 
 /*Transitions*/
 .site-main {
@@ -452,11 +447,27 @@ body.loaded .site-main {
     top: 0;
     left: 0; } }
 
+.contacts {
+  display: flex;
+  flex: 0 0 50%;
+  margin: 1em; }
+  .contacts div {
+    margin: 0 4em 0 1em; }
+
+.logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: stretch; }
+  .logo span {
+    display: block;
+    padding: 5em 2em 6em 2em; }
+
 .gallery {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
   grid-auto-flow: dense; }
 
@@ -474,7 +485,8 @@ body.loaded .site-main {
   list-style: none outside;
   position: relative;
   overflow: hidden;
-  grid-column: span 2; }
+  grid-column: span 2;
+  padding: 0; }
 
 .gallery li:before {
   display: block;
@@ -488,20 +500,8 @@ body.loaded .site-main {
 .gallery li.portrait a {
   display: flex; }
 
-.gallery li.small img,
-.gallery li.portrait img {
-  height: 100%;
-  width: auto; }
-
-.gallery li.portrait:before {
-  padding-top: 200%; }
-
 .gallery li.small {
-  grid-column: span 1;
-  grid-row: span 1; }
-
-.gallery li.small:before {
-  padding-top: 100%; }
+  grid-column: span 1; }
 
 .gallery li > a {
   position: absolute;
@@ -532,74 +532,79 @@ body.loaded .site-main {
   z-index: 3;
   color: #FFF; }
 
-.logo {
-  width: 10em;
-  height: auto;
-  display: flex;
-  justify-content: stretch; }
-  .logo span {
-    display: block; }
-
 ul.team-list {
-  background: #747860;
-  padding: 0 0 2em 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column; }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
   ul.team-list li {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin-bottom: 3.5em;
-    border-bottom: 1px solid #fff; }
-    ul.team-list li > span {
-      height: 18em; }
-  ul.team-list span {
-    display: block;
-    grid-column: 1; }
-  ul.team-list div {
-    display: block;
-    grid-column: 2/ span 2;
-    padding: 4em; }
-  ul.team-list .person-avatar {
-    width: 100%; }
-    ul.team-list .person-avatar img {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 0 4em 0; }
+    ul.team-list li:nth-child(1) {
+      display: block;
+      margin: 0 auto;
+      width: 60%;
+      grid-column: 1 / span 3; }
+    ul.team-list li:nth-child(2) {
+      grid-column: 1 / span 2; }
+    ul.team-list li:nth-child(3) {
+      grid-column: 1 / span 2; }
+    ul.team-list li:nth-child(4) {
+      grid-column: 1 / span 2; }
+    ul.team-list li .person-avatar {
       width: 100%;
       height: auto; }
+      ul.team-list li .person-avatar img {
+        width: 100%;
+        height: auto; }
+    ul.team-list li .team-avatar {
+      width: 100%;
+      height: auto; }
+      ul.team-list li .team-avatar img {
+        width: 100%;
+        height: auto; }
+    ul.team-list li div {
+      padding: 3em;
+      grid-column: 2 / span 2; }
+      ul.team-list li div span {
+        display: block; }
   ul.team-list .person-name {
     font-weight: bold; }
-  ul.team-list .person-message + .person-name,
-  ul.team-list .person-position + .person-message {
-    padding-top: 1.5em; }
 
-/**/
+.team-avatar,
 .person-avatar {
   display: block;
+  border-radius: 0.3em;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 0.2em 0.5rem 0 rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 0.2em 0.5rem 0 rgba(0, 0, 0, 0.5); }
 
+.team-avatar:before,
+.team-avatar:after,
 .person-avatar:before,
 .person-avatar:after {
   display: block;
   content: ''; }
 
+.team-avatar:before,
 .person-avatar:before {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.5) inset;
+  overflow: hidden;
+  border-radius: 0.3em;
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5) inset;
   z-index: 10;
   pointer-events: none; }
 
-.person-avatar:after {
-  padding-top: 100%; }
+.team-avatar img {
+  top: 50%;
+  left: 0%;
+  transform: translateY(0%); }
 
 .person-avatar img {
   display: block;
-  width: 100%;
-  height: auto;
   position: absolute;
   top: 50%;
   left: 0%;

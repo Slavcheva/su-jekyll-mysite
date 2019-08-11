@@ -2,34 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3bdfd74-30a2-401e-9390-38282d08951b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_assets/scss/_team.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/maintenance/maintenance10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/maintenance/maintenance9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/project1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/project2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/project3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/project4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/project6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/project7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/project8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/man1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_assets/scss/_logos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_assets/scss/_teams.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/project19.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_galery.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_modal.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_site-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_site-footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_site-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_site-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_transitions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_team.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/site.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-career.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-career.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-team.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2019/07/16/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/07/16/welcome-to-jekyll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/about/career/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/career/index.html" afterDir="false" />
@@ -41,6 +39,8 @@
       <change beforePath="$PROJECT_DIR$/docs/animations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/aboutSidebar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/projects/project6.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/jekyll/update/2019/07/16/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jekyll/update/2019/07/16/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/prices/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/prices/index.html" afterDir="false" />
@@ -48,7 +48,8 @@
       <change beforePath="$PROJECT_DIR$/docs/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/services/irrigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/irrigation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/services/maintenance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/maintenance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-maintеnance.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-maintеnance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/aboutSidebar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projects/project9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/projects/project6.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,19 +85,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/projects" />
+      <recent name="$PROJECT_DIR$/images/team" />
+      <recent name="$PROJECT_DIR$/images/maintenance" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/images/design" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_assets/scss" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_assets" />
       <recent name="$PROJECT_DIR$/images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/maintenance" />
-      <recent name="$PROJECT_DIR$/images/team" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/images/projects" />
-      <recent name="$PROJECT_DIR$/images/design" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,6 +155,7 @@
       <workItem from="1565416269277" duration="43000" />
       <workItem from="1565416367170" duration="7868000" />
       <workItem from="1565425326490" duration="21902000" />
+      <workItem from="1565503466635" duration="15072000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1565426001783</created>

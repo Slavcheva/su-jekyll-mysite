@@ -1,6 +1,6 @@
 //body{
 //  //background: floralwhite;
-//  background-image: url("/images/aboutSidebar.jpg");
+//  background-image: url("/images/project9.jpg");
 //}
 
 //.image {
@@ -11,7 +11,7 @@
 //
 //  &::after {
 //    content: "";
-//    background: url("/images/aboutSidebar.jpg");
+//    background: url("/images/project9.jpg");
 //    opacity: 0.4;
 //    top: 0;
 //    left: 0;
@@ -62,7 +62,9 @@
     }
     .content{
       padding: 0 2em 0 2em;
-    }
+      //display: flex;
+      //flex-direction: column;
+     }
   }
 
   //section {

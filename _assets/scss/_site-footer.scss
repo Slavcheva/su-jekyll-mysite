@@ -1,10 +1,11 @@
 .site-footer {
-  padding: 2em;
+  padding: 2em 2em 0 2em;
   border-top: 1px solid var(--color-border-default);
   //margin-top: var(--spacing-layout-elements);
   //padding-top: calc(var(--spacing-layout-elements) / 2);
   background: var(--color-elements-bgrd);
   color: var(--color-elements-text);
+  flex-grow: 1;
 
   div {
     display: grid;
