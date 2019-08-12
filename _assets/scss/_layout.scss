@@ -1,8 +1,12 @@
 
 .site {
-  margin: 0 auto;
+  //margin: 0 auto;
+  //background: url("/images/plan.png") no-repeat center center;
+  //background-size: cover;
+  //background-color: rgba(255, 255, 255, 0.4);
 
-  @include bp(laptop) {
+  @include bp(desktop) {
+
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 4em;
@@ -18,10 +22,6 @@
       grid-area: main;
     }
 
-    .site-sidebar {
-      grid-area: sidebar;
-    }
-
     .site-footer {
       grid-area: footer;
     }
@@ -35,9 +35,9 @@
       margin-left: auto;
     }
     .content {
-      padding: 0 10em 0 10em;
-      color: #747860;
-      border-bottom: 2px solid #747860;
+      padding: 0 8em 0 8em;
+      color: var(--color-link-default);
+      //border-bottom: 2px solid var(--color-link-default);
     }
   }
 
@@ -56,15 +56,14 @@
       color: var(--color-elements-text);
       font-size: 2em;
       font-family: 'Signika', sans-serif;
+      text-align: center;
 
-        text-align: center;
       p {
         color: var(--color-elements-text);
       }
 
-
-        border-bottom: none;
-
+      //@include bp(tablet) {
+      //}
     }
   }
 

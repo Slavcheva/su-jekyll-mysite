@@ -2,16 +2,21 @@
   &-header {
     border-bottom: 1px solid var(--color-border-default);
     background: var(--color-elements-bgrd);
-    //margin-bottom: var(--spacing-layout-elements);
-    //padding-bottom: calc(var(--spacing-layout-elements) / 2);
 
-    //position: fixed;
-    //width: 100%;
-    //z-index: 1000;
-    //top: -20px;
-
+    @include bp(mobile) {
+      display: block;
+      text-align: center;
+      .site-title{
+      padding-left: 0;
+      }
+      .site-nav {
+        ul {
+        padding-bottom: 1em;
+        text-align: center;
+        }
+      }
+    }
   }
-
 
   &-title {
     margin: 0;
@@ -21,7 +26,7 @@
     a {
       display: block;
       padding: 0.5em 0;
-      color: #FFFFFF;
+      color: var(--color-elements-text);
     }
   }
 }

@@ -8,27 +8,14 @@ li {
   display: block;
   list-style: none outside;
   padding: 0 0.5em;
-
-  //&:after {
-  //  position: absolute;
-  //  bottom: 0;
-  //  left: 1em;
-  //  color: var(--color-link-default);
-  //  width: 1em;
-  //  height: 2px;
+  //
+  //&:first-child {
+  //  padding-left: 0;
   //}
-
-  &:first-child {
-    padding-left: 0;
-  }
 }
 
 .site-nav {
   padding-right: 2em;
-
-  @include bp(laptop) {
-
-  }
 
   a {
     display: block;
@@ -53,12 +40,63 @@ li {
     }
   }
 
-  .sub-nav,
-  .about-nav {
-    a {
+  & li.selected > a:after,
+  & a:hover:after {
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  @include bp(mobile) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    ul {
+      padding-bottom: 1em;
+    }
+  }
+  @include bp(tablet) {
+    ul {
       display: block;
-      padding: 0.1em 1em;
-      position: relative;
+      text-align: center;
+      li{
+        padding-bottom: 1em;
+      }
+    }
+  }
+}
+
+
+.sub-nav,
+.about-nav {
+  padding: 1em 1em 1em 2em;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--color-border-default);
+  display: flex;
+  justify-content: center;
+  background: var(--color-elements-text);
+
+  li {
+    //padding: 1em 2em 1em 2em;
+    padding: 1em;
+  }
+
+  a {
+    display: block;
+    padding: 0.1em 1em;
+    position: relative;
+    color: var(--color-link-default);
+    font-weight: bold;
+
+    &:after {
+      position: absolute;
+      width: 0;
+      bottom: 0;
+      content: "";
+      border-bottom: 2px solid var(--color-elements-bgrd);
+      left: 50%;
+      transition: width 0.5s ease-in-out;
     }
   }
 
@@ -67,33 +105,22 @@ li {
     left: 0;
     width: 100%;
     text-align: center;
+  }
 
-
-    & li.selected > a:after,
-    & a:hover:after {
-      left: 0;
-      width: 100%;
+  @include bp(mobile) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    ul {
+      padding-bottom: 1em;
+    }
+  }
+  @include bp(tablet) {
+    ul {
+      display: block;
       text-align: center;
     }
   }
 }
-
-.sub-nav,
-.about-nav {
-  padding: 1em;
-  margin: 0 auto;
-  border-bottom: 1px solid var(--color-border-default);
-  display: flex;
-  justify-content: center;
-  background: var(--color-elements-text);
-
-  li {
-    padding: 1em 2em 1em 2em;
-  }
-  a{
-    color: var(--color-link-default);
-    font-weight: bold ;
-  }
-}
-
 

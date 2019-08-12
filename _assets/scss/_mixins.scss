@@ -1,7 +1,7 @@
 @mixin bp($point) {
 
-  @if $point ==  desktop{
-    @media (min-width: 1600px) {
+  @if $point ==  desktop {
+    @media (min-width: 1025px) {
       @content;
     }
   } @else if $point == laptop{

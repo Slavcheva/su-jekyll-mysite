@@ -13,6 +13,7 @@
     //grid-template-columns: 20% 20% 20% auto 25%;
     grid-template-columns: repeat(5,auto);
     grid-column-gap: 1em;
+    padding: 2em 2em 0 2em;
 
     .social {
       font-size: 1.5em;
@@ -24,5 +25,26 @@
     }
 
   }
+  .go-top{
+    display: block;
+    color: var(--color-elements-bgrd);
+    position: fixed;
+    bottom: 5vh;
+    right: 1vw;
+    z-index: 9;
+  }
+
+  .fa-arrow-alt-circle-up{
+    font-size: 2.5em;
+  }
+
+  .footer{
+    @include bp(tablet) {
+      display: block;
+      text-align: center;
+    }
+  }
 }
+
+
 

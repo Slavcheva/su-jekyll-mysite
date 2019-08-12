@@ -1,50 +1,23 @@
 ul.team-list {
 
-  //Mixin phone
-    display: flex;
-    flex-direction: column;
-    //width: 100%;
-    //height: auto;
-    li {
+  div {
+    padding: 2em 1em 0 1em;
+    text-align: center;
+
+    span {
       display: block;
     }
-
-  @include bp(tablet) {
-    li {
-      display: flex;
-      flex-direction: column;
-      padding: 1em;
-
-      &:nth-child(1) {
-        display: block;
-      }
-
-      &:nth-child(2) {
-        display: flex;
-        flex: 1 1 auto;
-      }
-
-      &:nth-child(3) {
-        display: flex;
-        flex: 1 1 auto;
-
-      }
-
-      &:nth-child(4) {
-        display: flex;
-        flex: 1 1 auto;
-      }
-
-    }
   }
-  @include bp(laptop) {
+
+  @include bp(desktop) {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+
     li {
       display: grid;
-      padding: 2em 1em 0 1em;
+      padding: 2em 1em 2em 1em;
 
 
       &:nth-child(1) {
@@ -73,54 +46,199 @@ ul.team-list {
         grid-column: 3 / span 1;
         grid-row: 2 / span 2;
       }
+    }
+    .team-avatar {
+      max-width: 30em;
+      max-height: 16em;
 
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .person-avatar {
+      max-width: 15em;
+      max-height: 10em;
 
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .person-info{
+      text-align: center;
     }
   }
 
-  .person-avatar {
-    width: 100%;
-    height: auto;
-    //grid-column: 1 / span 1;
+  @include bp(laptop) {
 
-    img {
-      width: 100%;
-      height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    li {
+      display: grid;
+      padding: 2em 1em 2em 1em;
+
+
+      &:nth-child(1) {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        grid-column: 1 / span 3;
+        grid-row: 1;
+      }
+
+      &:nth-child(2) {
+        display: block;
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 2;
+      }
+
+      &:nth-child(3) {
+        display: block;
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 2;
+
+      }
+
+      &:nth-child(4) {
+        display: block;
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 2;
+      }
+    }
+    .team-avatar {
+      max-width: 30em;
+      max-height: 15em;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .person-avatar {
+      max-width: 15em;
+      max-height: 9em;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 
-  .team-avatar {
-    width: 100%;
-    height: auto;
+  @include bp(tablet) {
 
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-
-
-  div {
-    padding: 3em;
-    padding-bottom: 0;
-    //grid-column: 2 / span 2;
-    text-align: center;
-
-    span {
-      display: block;
-    }
-  }
-
-  .person-name {
-    font-weight: bold;
-  }
-
-  .team-avatar,
-  .person-avatar {
     display: block;
-    border-radius: 0.3em;
-    overflow: hidden;
-    //position: relative;
-    box-shadow: 0 0.2em 1.5rem 0 rgba(0, 0, 0, 0.5);
+
+    li {
+      display: flex;
+      flex-direction: column;
+      padding: 2em;
+      margin: 0 auto;
+
+      &:nth-child(1) {
+        display: block;
+      }
+
+      &:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+      }
+
+      &:nth-child(3) {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+      }
+
+      &:nth-child(4) {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+      }
+    }
+    .team-avatar {
+      width: 30em;
+      height: 15em;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .person-avatar {
+      width: 15em;
+      height: 10em;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    div {
+      padding-left: 2em;
+    }
+  }
+  //Mixin phone
+  @include bp(phone) {
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    //height: auto;
+    //display: block;
+
+    li {
+      display: flex;
+      margin: 0 auto;
+
+      flex-direction: column;
+      padding-bottom: 1em;
+
+      text-align: left;
+
+      .person-avatar {
+        display: block;
+      }
+      .person-info{
+        display: block;
+        width: 20em;
+      }
+    }
+
+    .team-avatar {
+      width: 20em;
+      height: 11em;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .person-avatar {
+      width: 20em;
+      height: 10em;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
   }
 }
+
+.person-name {
+  font-weight: bold;
+}
+
+.team-avatar,
+.person-avatar {
+  display: block;
+  border-radius: 0.3em;
+  overflow: hidden;
+  //position: relative;
+  box-shadow: 0 0.2em 1.5rem 0 rgba(0, 0, 0, 0.5);
+}
+
