@@ -233,6 +233,10 @@ ul.team-list {
   font-weight: bold;
 }
 
+.person-email > a{
+    color: var(--color-link-default);
+}
+
 .team-photo,
 .person-photo {
   display: block;
