@@ -112,22 +112,3 @@
 //  }
 //}
 //
-.logo {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-
-  span {
-    display: block;
-    padding: 5em 2em 6em 2em;
-  }
-}
-
-@include bp(tablet) {
-  .contacts,
-  .logo{
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}

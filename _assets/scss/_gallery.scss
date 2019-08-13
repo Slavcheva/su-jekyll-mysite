@@ -1,4 +1,8 @@
-.img-container {
+//service-design
+//service-irrigation
+//service-maintenance
+
+.service-img-container {
   display: grid;
   justify-content: stretch;
   grid-template-columns: 25% 25% 25% 25%;
@@ -49,11 +53,160 @@
   }
 }
 
-.sub-img{
+.sub-img {
   display: block;
   width: 100%;
-  img{
-  width: 100%;
+
+  img {
+    width: 100%;
 
   }
 }
+
+//about-partners
+.logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    display: block;
+    padding: 5em 2em 6em 2em;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+@include bp(tablet) {
+
+  .contacts,
+  .logo {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    span {
+      padding: 1.5em;
+      width: 40%;
+    }
+  }
+}
+
+@include bp(phone) {
+  .contacts,
+  .logo {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    span {
+      padding: 1.5em;
+      width: 50%;
+    }
+  }
+}
+
+//about-team
+
+.about-team {
+
+  .content {
+    .team-photo {
+      display: block;
+      text-align: center;
+      padding-bottom: 4em;
+
+      img {
+        max-width: 80%;
+      }
+    }
+
+    .team-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+
+      li {
+        padding-bottom: 2em;
+
+        .person-photo {
+          display: block;
+          text-align: center;
+          padding-bottom: 1em;
+
+          img {
+            width: 15em;
+            height: 10em;
+          }
+        }
+
+        .person-info {
+          display: block;
+          text-align: center;
+
+          span {
+            display: block;
+          }
+        }
+
+        &:nth-child(1) {
+          grid-column: 1;
+        }
+
+        &:nth-child(2) {
+          grid-column: 2;
+        }
+
+        &:nth-child(3) {
+          grid-column: 3;
+        }
+      }
+    }
+
+    .person-name {
+      font-weight: bold;
+    }
+
+    .team-photo,
+    .person-photo {
+      img {
+        border-radius: 0.5em;
+        overflow: hidden;
+        box-shadow: 0 0.2em 1.5rem 0 rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    @include bp(tablet) {
+      .team-photo {
+        display: block;
+        text-align: center;
+
+        img {
+        }
+      }
+      .team-list {
+        display: block;
+        //margin: 0 auto;
+        li {
+          display: flex;
+          justify-content: center;
+
+          .person-info {
+            padding: 2em;
+          }
+        }
+      }
+    }
+    @include bp(phone) {
+      .team-list {
+        display: block;
+
+        li {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
