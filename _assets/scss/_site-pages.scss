@@ -1,0 +1,55 @@
+.contacts {
+  display: flex;
+  flex: 0 0 40%;
+  margin: 1em;
+
+
+  iframe {
+    padding-bottom: 1em;
+    width: 40em;
+    height: 25em;
+  }
+
+  div {
+    margin: 0 1em 0 1em;
+  }
+}
+
+.index {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .ground {
+
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    color: var(--color-elements-text);
+    font-size: 2em;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+
+
+    .tracking-in-expand-fwd-top {
+      //display: block;
+      vertical-align: center;
+      text-align: center;
+    }
+
+    p {
+      color: var(--color-elements-text);
+    }
+
+    //@include bp(tablet) {
+    //}
+  }
+}
+
+.prices {
+  margin: 2em 0 2em 0;
+}

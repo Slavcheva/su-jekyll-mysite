@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3bdfd74-30a2-401e-9390-38282d08951b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/plan2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_animations.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_site-pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_site-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_site-footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/scss/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_site-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_site-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_team.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-team.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_assets/scss/site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/scss/site.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2019/07/16/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/07/16/welcome-to-jekyll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
@@ -28,13 +35,12 @@
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/jekyll/update/2019/07/16/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/jekyll/update/2019/07/16/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/prices/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/prices/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/scripts/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scripts/site.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/services/design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/design/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/services/irrigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/irrigation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/services/maintenance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/services/maintenance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/site.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/prices.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +156,8 @@
       <workItem from="1565695511248" duration="2821000" />
       <workItem from="1565698433288" duration="6621000" />
       <workItem from="1565710702562" duration="4912000" />
-      <workItem from="1565724039138" duration="5660000" />
+      <workItem from="1565724039138" duration="6034000" />
+      <workItem from="1565762308871" duration="13475000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1565426001783</created>

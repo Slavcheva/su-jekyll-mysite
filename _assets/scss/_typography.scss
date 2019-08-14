@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext');
-@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+
 *, *:before, *:after {
     margin: 0;
     padding: 0;
@@ -10,40 +9,41 @@
 
 html {
     box-sizing: border-box;
-    //font: var(--font-size-body)/1.5 "Fira Sans", Georgia, serif;
-    //font: var(--font-size-body)/1.5 PTSansRegular, Arial, Helvetica, sans-serif
     font: var(--font-size-body)/1.5 'PT Sans', sans-serif;
 }
-body{
-}
-@media ( max-width: 600px) {
 
-}
-
-
-@media ( min-width: 600px) {
+@include bp(desktop){
     html {
-        font-size: var(--font-size-body-larger);
+        font-size: var(--font-size-body-huge);
     }
 }
 
-@media ( min-width: 1024px) {
+@include bp(laptop){
     html {
         font-size: var(--font-size-body-big);
     }
 }
-
-@media (min-width: 1600px) {
+@include bp(mobile){
     html {
-        font-size: var(--font-size-body-huge);
+        font-size: var(--font-size-body-larger);
+    }
+}
+@include bp(tablet){
+    html {
+        font-size: var(--font-size-body);
+    }
+}
+
+@include bp(phone) {
+    html {
+        font-size: var(--font-size-body-small);
     }
 }
 
 body, table, form, select, option, input, textarea {
     font: inherit;
     background: var(--color-body-bgrd, #FFF);
-    color: var(--color-body-text, #000);
-
+    color: var(--color-body-text), #000;
 }
 
 .site-title,
@@ -52,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
     font-weight: normal;
     font-family: 'Signika', sans-serif;
-
 }
 
 h1 {
@@ -61,7 +60,6 @@ h1 {
 
 h2 {
     font-size: 2.0em;
-    text-align: center;
 }
 
 h3 {
@@ -82,7 +80,6 @@ h6 {
 
 a{
     text-decoration: none;
-    //color: var(--color-link-default, #0A0) ;
 }
 
 p, ul, ol {

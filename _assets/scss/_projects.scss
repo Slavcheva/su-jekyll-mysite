@@ -1,105 +1,78 @@
-.page-gallery {
-  //background: url('/images/body_bgrd.jpg');
-}
 
-.gallery {
-  padding: 0;
+.projects-images {
+  padding: 0 0 var(--spacing-layout-elements) 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
-  grid-auto-flow: dense;
+
+  a,
+  span,
+  img {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+    overflow: hidden;
+    grid-column: span 1;
+    padding: 0;
+
+    &:before {
+      display: block;
+      content: '';
+      padding-top: 50%;
+    }
+  }
+
+  & li > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: 0.3s ease;
+  }
+
+  a:hover .overlay {
+    transform: scale(1);
+  }
+
+  strong {
+    color: white;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  @include bp(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+    padding: var(--spacing-layout-elements);
+  }
+  @include bp(phone) {
+    grid-template-columns: 1fr;
+    padding: calc(2 * var(--spacing-layout-elements));
+  }
 }
-
-.gallery a,
-.gallery span,
-.gallery img {
-  display: block;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.gallery li {
-  display: block;
-  list-style: none outside;
-  position: relative;
-  overflow: hidden;
-  grid-column: span 2;
-  padding: 0;
-}
-
-.gallery li:before {
-  display: block;
-  content: '';
-  padding-top: 50%;
-}
-
-.gallery li.portrait {
-  grid-column: span 1;
-  grid-row: span 2;
-}
-
-.gallery li.portrait a {
-  display: flex;
-}
-
-.gallery li.small img,
-.gallery li.portrait img {
-  //height: 10em;
-  //width: 10em;
-}
-
-//.gallery li.portrait:before {
-//  padding-top: 200%;
-//}
-
-.gallery li.small {
-  grid-column: span 1;
-  //grid-row: span 1;
-}
-
-//.gallery li.small:before {
-//  padding-top: 100%;
-//}
-
-.gallery li > a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.gallery li > a:hover {
-
-}
-
-.gallery li > a:hover img {
-  position: relative;
-  z-index: 1;
-}
-
-.gallery li > a:hover:before {
-  content: '';
-  display: block;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 2;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.gallery li > a:hover strong {
-  position: absolute;
-  top: 1em;
-  left: 1em;
-  z-index: 3;
-  color: #FFF;
-
-}
-
