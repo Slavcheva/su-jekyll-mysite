@@ -1,6 +1,6 @@
 .contacts {
   display: flex;
-  flex: 0 0 40%;
+  flex: 0 0 50%;
   margin: 1em;
 
 
@@ -11,13 +11,35 @@
   }
 
   div {
-    margin: 0 1em 0 1em;
+    padding: 0 1em 0 1em;
+    text-align: left;
+  }
+
+  @include bp (tablet) {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+      padding: 1em;
+      width: 100%;
+    }
+    iframe {
+      width: 100%;
+    }
+  }
+}
+
+.logo {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  span {
+    padding: 1.5em;
+    width: 40%;
   }
 }
 
 .index {
-  position: relative;
-
   img {
     width: 100%;
     height: auto;
@@ -25,31 +47,33 @@
 
 
   .ground {
-
+    width: 100%;
     position: absolute;
-    top: 2em;
-    left: 2em;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: var(--color-elements-text);
     font-size: 2em;
     font-family: 'Signika', sans-serif;
     text-align: center;
 
 
-    .tracking-in-expand-fwd-top {
-      //display: block;
-      vertical-align: center;
-      text-align: center;
+    .index-title {
+      display: block;
     }
 
     p {
       color: var(--color-elements-text);
     }
 
-    //@include bp(tablet) {
-    //}
+    @include bp(tablet) {
+      .ground {
+        font-size: 2em;
+      }
+    }
   }
 }
 
 .prices {
-  margin: 2em 0 2em 0;
+  padding: 2em 0 2em 0;
 }

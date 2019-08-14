@@ -32,10 +32,17 @@ form {
   }
 
   @include bp(tablet) {
-    width: 80%;
+    width: 60%;
     label {
       display: none;
     }
+    input, textarea, select {
+      width: 100%;
+    }
+  }
+  @include bp(phone) {
+    width: 100%;
+
     input, textarea, select {
       width: 100%;
     }

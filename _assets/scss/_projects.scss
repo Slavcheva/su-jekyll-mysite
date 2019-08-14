@@ -32,31 +32,6 @@
     }
   }
 
-  & li > a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.6);
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    transform: scale(0);
-    transition: 0.3s ease;
-  }
-
-  a:hover .overlay {
-    transform: scale(1);
-  }
-
   strong {
     color: white;
     font-style: italic;
@@ -69,10 +44,9 @@
 
   @include bp(tablet) {
     grid-template-columns: repeat(2, 1fr);
-    padding: var(--spacing-layout-elements);
   }
+
   @include bp(phone) {
     grid-template-columns: 1fr;
-    padding: calc(2 * var(--spacing-layout-elements));
   }
 }

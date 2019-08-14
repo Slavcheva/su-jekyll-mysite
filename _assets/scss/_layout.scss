@@ -10,9 +10,7 @@
     .site-header {
       grid-area: header;
     }
-    .sub-nav {
-      grid-area: nav;
-    }
+
     .site-main {
       grid-area: main;
     }
@@ -32,10 +30,9 @@
   }
 
   .content {
-    padding: 0 2em 0 2em;
+    padding: 0 4em  4em;
     color: var(--color-link-default);
   }
-
 
   h2 {
     color: var(--color-link-default);

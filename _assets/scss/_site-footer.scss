@@ -6,7 +6,6 @@
   color: var(--color-elements-text);
   flex-grow: 1;
 
-
   div {
 
     padding: calc(var(--spacing-layout-elements) / 2);
@@ -35,6 +34,7 @@
       display: block;
       text-align: center;
       p {
+        padding-bottom: 0.3em;
         padding-left: 0;
       }
     }

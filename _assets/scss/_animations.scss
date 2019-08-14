@@ -1,145 +1,307 @@
-.animate-title {
-  -webkit-animation: animate-title 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-  animation: animate-title 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+//.index-title {
+//  animation: index-title 1s ease-in-out;
+//  opacity: 0;
+//}
+.index-p {
+  animation: index-title 1s ease-in-out;
+  animation-delay: 0.1s;
+  //opacity: 1;
 }
 
-@-webkit-keyframes animate-title {
+@-webkit-keyframes index-title {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px) translateY(-500px);
-    transform: translateZ(-700px) translateY(-500px);
+    letter-spacing: 1em;
+    transform: translateZ(400px) translateY(-300px);
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translateZ(0) translateY(0);
     transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
 
-@keyframes animate-title {
+@keyframes index-title {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px) translateY(-500px);
-    transform: translateZ(-700px) translateY(-500px);
+    letter-spacing: -0.6em;
+    transform: translateZ(400px) translateY(-300px);
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translateZ(0) translateY(0);
     transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
 
+@-webkit-keyframes index-p {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(1000px) translateY(-1000px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes index-p {
+  0% {
+    letter-spacing: -0.6em;
+    transform: translateZ(1000px) translateY(-1000px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------------
+//въртене
+ * ---------------------------------------------- */
+
+//@-webkit-keyframes index-title {
+//  0% {
+//    -webkit-transform: scale(1) rotateZ(0);
+//    transform: scale(1) rotateZ(0);
+//  }
+//  50% {
+//    -webkit-transform: scale(2) rotateZ(180deg);
+//    transform: scale(2) rotateZ(180deg);
+//  }
+//  100% {
+//    -webkit-transform: scale(1) rotateZ(360deg);
+//    transform: scale(1) rotateZ(360deg);
+//  }
+//}
+//
+//@keyframes index-title {
+//  0% {
+//    -webkit-transform: scale(1) rotateZ(0);
+//    transform: scale(1) rotateZ(0);
+//  }
+//  50% {
+//    -webkit-transform: scale(2) rotateZ(180deg);
+//    transform: scale(2) rotateZ(180deg);
+//  }
+//  100% {
+//    -webkit-transform: scale(1) rotateZ(360deg);
+//    transform: scale(1) rotateZ(360deg);
+//  }
+//}
+//
+//@-webkit-keyframes index-p {
+//  0% {
+//    -webkit-transform: scale(1) rotateZ(0);
+//    transform: scale(1) rotateZ(0);
+//  }
+//  50% {
+//    -webkit-transform: scale(2) rotateZ(180deg);
+//    transform: scale(2) rotateZ(180deg);
+//  }
+//  100% {
+//    -webkit-transform: scale(1) rotateZ(360deg);
+//    transform: scale(1) rotateZ(360deg);
+//  }
+//}
+//
+//@keyframes index-p {
+//  0% {
+//    -webkit-transform: scale(1) rotateZ(0);
+//    transform: scale(1) rotateZ(0);
+//  }
+//  50% {
+//    -webkit-transform: scale(2) rotateZ(180deg);
+//    transform: scale(2) rotateZ(180deg);
+//  }
+//  100% {
+//    -webkit-transform: scale(1) rotateZ(360deg);
+//    transform: scale(1) rotateZ(360deg);
+//  }
+//}
 
 
-//
-//.page-animations .site-main h1,
-//.page-animations .site-header,
-//.page-animations .site-footer {
-//    display: none;
+
+/**
+ * ----------------------------------------
+ * от вътре навън
+ * ----------------------------------------
+ */
+//@-webkit-keyframes index-title {
+//  0% {
+//    letter-spacing: -0.5em;
+//    -webkit-transform: translateZ(-700px);
+//    transform: translateZ(-700px);
+//    opacity: 0;
+//  }
+//  40% {
+//    opacity: 0.6;
+//  }
+//  100% {
+//    -webkit-transform: translateZ(0);
+//    transform: translateZ(0);
+//    opacity: 1;
+//  }
 //}
 //
-//.page-animations {
-//    min-height: 100vh;
+//@keyframes index-title {
+//  0% {
+//    letter-spacing: -0.5em;
+//    -webkit-transform: translateZ(-700px);
+//    transform: translateZ(-700px);
+//    opacity: 0;
+//  }
+//  40% {
+//    opacity: 0.6;
+//  }
+//  100% {
+//    -webkit-transform: translateZ(0);
+//    transform: translateZ(0);
+//    opacity: 1;
+//  }
+//}
+//@-webkit-keyframes index-p {
+//  0% {
+//    letter-spacing: -0.5em;
+//    -webkit-transform: translateZ(-700px);
+//    transform: translateZ(-700px);
+//    opacity: 0;
+//  }
+//  40% {
+//    opacity: 0.6;
+//  }
+//  100% {
+//    -webkit-transform: translateZ(0);
+//    transform: translateZ(0);
+//    opacity: 1;
+//  }
 //}
 //
-///*
-//.box {
-//    width: 5em;
-//    height: 5em;
-//    background: #F00;
-//    position: absolute;
-//    animation: around 4s linear;
-//    animation-fill-mode: forwards;
-//    animation-iteration-count: infinite;
-//    animation-direction: alternate;
-//}
-//*/
-//
-//.box {
-//    width: 20em;
-//    height: 15em;
-//    border: 2px solid #000;
-//    margin: 2em auto;
-//    background: #EEE;
+//@keyframes index-p {
+//  0% {
+//    letter-spacing: -0.5em;
+//    -webkit-transform: translateZ(-700px);
+//    transform: translateZ(-700px);
+//    opacity: 0;
+//  }
+//  40% {
+//    opacity: 0.6;
+//  }
+//  100% {
+//    -webkit-transform: translateZ(0);
+//    transform: translateZ(0);
+//    opacity: 1;
+//  }
 //}
 //
-//.box:hover {
-//    animation: shake 0.5s ease;
-//    animation-fill-mode: both;
+//* *
+//* ----------------------------------------
+//* спускане отгоре
+//* ----------------------------------------
+//*
+
+
+
+
+
+/**
+ * ----------------------------------------
+ * разместване на буквите
+ * ----------------------------------------
+// */
+//@-webkit-keyframes index-title {
+//  0% {
+//    opacity: 1;
+//  }
+//  60% {
+//    opacity: 0.8;
+//  }
+//  100% {
+//    letter-spacing: 0.5em;
+//    opacity: 0;
+//  }
+//}
+
+//@keyframes index-title {
+//  0% {
+//    opacity: 1;
+//  }
+//  60% {
+//    opacity: 0.8;
+//  }
+//  100% {
+//    letter-spacing: 0.5em;
+//    opacity: 0;
+//  }
+//}
+
+//@-webkit-keyframes index-title {
+//  0% {
+//    letter-spacing: -0.6em;
+//    transform: translateZ(-1em) translateY(-1em);
+//    opacity: 0;
+//  }
+//  40% {
+//    opacity: 0.6;
+//  }
+//  100% {
+//    transform: translateZ(0) translateY(0);
+//    opacity: 1;
+//  }
 //}
 //
-//@keyframes slideIn {
-//    from {
-//        opacity: 0;
-//        transform: translate(-2em, -2em);
-//    }
-//
-//    to {
-//        opacity: 1;
-//        transform: translate(0);
-//    }
+//@keyframes index-title {
+//  0% {
+//    letter-spacing: -0.6em;
+//    transform: translateZ(-1em) translateY(-1em);
+//    opacity: 0;
+//  }
+//  40% {
+//    opacity: 0.6;
+//  }
+//  100% {
+//    transform: translateZ(0) translateY(0);
+//    opacity: 1;
+//  }
+//}
+//@-webkit-keyframes index-p {
+//  0% {
+//    letter-spacing: -0.6em;
+//    transform: translateZ(-1em) translateY(-1em);
+//    opacity: 0;
+//  }
+//  40% {
+//    opacity: 0.6;
+//  }
+//  100% {
+//    transform: translateZ(0) translateY(0);
+//    opacity: 1;
+//  }
 //}
 //
-//@keyframes shake {
-//    0% {
-//        transform: translateX(0);
-//    }
-//
-//    20% {
-//        transform: translateX(-2em);
-//    }
-//
-//    40% {
-//        transform: translateX(2em);
-//    }
-//
-//    60% {
-//        transform: translateX(-1em);
-//    }
-//
-//    80% {
-//        transform: translateX(1em);
-//    }
-//
-//    100% {
-//        transform: translateX(0);
-//    }
-//}
-//
-//
-//@keyframes around {
-//
-//    0% {
-//        top: 0;
-//        left: 0;
-//    }
-//
-//    25% {
-//        top: 0;
-//        left: calc(100% - 5rem);
-//    }
-//
-//    50% {
-//        top: calc(100% - 5rem);
-//        left: calc(100% - 5rem);
-//    }
-//
-//    75% {
-//        top: calc(100% - 5rem);
-//        left: 0;
-//    }
-//
-//    100% {
-//        top: 0;
-//        left: 0;
-//    }
-//
+//@keyframes index-p{
+//  0% {
+//    letter-spacing: -0.6em;
+//    transform: translateZ(-1em) translateY(-1em);
+//    opacity: 0;
+//  }
+//  40% {
+//    opacity: 0.6;
+//  }
+//  100% {
+//    transform: translateZ(0) translateY(0);
+//    opacity: 1;
+//  }
 //}

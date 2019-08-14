@@ -6,12 +6,17 @@
   img {
     width: 100%;
   }
+
+  @include bp(tablet) {
+    margin-top: 0;
+    margin-left: 0;
+  }
 }
+
 
 //service-design
 //service-irrigation
 //service-maintenance
-
 .service-img-container {
   display: grid;
   justify-content: stretch;
@@ -62,73 +67,68 @@
   }
 
   @include bp(tablet) {
-    display: grid;
-    justify-content: stretch;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 35% 35%;
     grid-template-rows: 1fr 1fr;
-    margin-left: 0;
-
+    justify-content: center;
     .service-img {
-      margin:0.5em auto;
+      margin: 2em;
+      width: 14em;
+    }
+  }
+  @include bp(phone) {
+    grid-template-columns: 55%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    .service-img {
+      //margin-bottom: 2em;
+      margin: 1em;
+      width: 16em;
     }
   }
 }
 
-//.sub-img {
-//  display: block;
-//  width: 100%;
-//
-//  img {
-//    width: 100%;
-//  }
-//}
 
 //about-partners
-.logo {
+.logos {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10em;
 
-  span {
+  li {
     display: block;
-    padding: 5em 2em 6em 2em;
+    width: 25%;
+    padding: 4em 2em 8em 2em;
 
     img {
       max-width: 100%;
     }
   }
-}
 
-@include bp(tablet) {
+  @include bp(tablet) {
 
-  .contacts,
-  .logo {
     flex-wrap: wrap;
-    justify-content: center;
+    padding: 1em 2em 2em 2em;
 
-    span {
-      padding: 1.5em;
+    li {
+      padding: 1.5em 0 1.5em 0;
       width: 40%;
     }
   }
-}
 
-@include bp(phone) {
-  .contacts,
-  .logo {
-    flex-wrap: wrap;
-    justify-content: center;
-
-    span {
+  @include bp(phone) {
+    li {
+      display: inline;
+      margin: 0 auto;
       padding: 1.5em;
-      //width: 50%;
+      width: 51%;
     }
   }
 }
 
-//about-team
 
+//about-team
 .about-team {
 
   .content {

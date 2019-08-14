@@ -2,68 +2,69 @@
 @import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
 
 *, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
-    font: var(--font-size-body)/1.5 'PT Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
 }
 
-@include bp(desktop){
-    html {
-        font-size: var(--font-size-body-huge);
-    }
+@include bp(desktop) {
+  html {
+    font-size: calc(var(--font-size-body) * 2);
+  }
 }
 
-@include bp(laptop){
-    html {
-        font-size: var(--font-size-body-big);
-    }
+@include bp(laptop) {
+  html {
+      font-size: calc(var(--font-size-body) * 1.8);
+  }
 }
-@include bp(mobile){
-    html {
-        font-size: var(--font-size-body-larger);
-    }
+
+@include bp(mobile) {
+  html {
+      font-size: calc(var(--font-size-body) * 1.6);
+  }
 }
-@include bp(tablet){
-    html {
-        font-size: var(--font-size-body);
-    }
+
+@include bp(tablet) {
+  html {
+      font-size: calc(var(--font-size-body) * 1.4);
+  }
 }
 
 @include bp(phone) {
-    html {
-        font-size: var(--font-size-body-small);
-    }
+  html {
+      font-size: calc(var(--font-size-body) * 1.2);
+  }
 }
 
 body, table, form, select, option, input, textarea {
-    font: inherit;
-    background: var(--color-body-bgrd, #FFF);
-    color: var(--color-body-text), #000;
+  font: inherit;
+  background: var(--color-body-bgrd, #FFF);
+  color: var(--color-body-text), #000;
 }
 
 .site-title,
 h1, h2, h3, h4, h5, h6 {
-    font-size: 1em;
-    margin-bottom: 0.5em;
-    font-weight: normal;
-    font-family: 'Signika', sans-serif;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  font-family: 'Signika', sans-serif;
 }
 
 h1 {
-    font-size: 2.6em;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 2.0em;
+    font-size: 1.8em;
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 h4 {
@@ -78,39 +79,39 @@ h6 {
     font-size: 1em;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 p, ul, ol {
-    padding-bottom: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 ul, ol {
-    padding-left: 2em;
+  padding-left: 2em;
 }
 
 ul ul, ol ul, ul ol, ol ol {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 ol > li > ol > li {
-    list-style-type: lower-roman;
+  list-style-type: lower-roman;
 }
 
 blockquote {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 blockquote .author {
-    font-style: italic;
-    text-align: right;
-    opacity: 0.5;
+  font-style: italic;
+  text-align: right;
+  opacity: 0.5;
 }
 
 blockquote .author:before {
-    display: inline-block;
-    content: '\2014';
-    padding-right: 0.5em;
+  display: inline-block;
+  content: '\2014';
+  padding-right: 0.5em;
 }
