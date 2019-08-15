@@ -1,20 +1,51 @@
 .site {
-
   &-header {
 
+    display: flex;
     border-bottom: 1px solid var(--color-border-default);
     background: var(--color-elements-bgrd);
+    align-items: center;
 
-    @include bp(mobile) {
+    nav {
+      margin-left: auto;
+    }
+
+
+    @include bp(tablet) {
       display: block;
       text-align: center;
-      .site-title{
-      padding-left: 0;
+
+      .site-title {
+        padding-left: 0;
       }
       .site-nav {
         ul {
-        padding-bottom: 1em;
-        text-align: center;
+          display: flex;
+          padding-bottom: 1em;
+          justify-content: center;
+
+          li {
+            display: inline;
+          }
+        }
+      }
+    }
+
+    @include bp(phone) {
+      display: block;
+      text-align: center;
+
+      .site-title {
+        padding-left: 0;
+      }
+      .site-nav {
+        ul {
+          display: block;
+          text-align: center;
+
+          li {
+            padding-bottom: 1em;
+          }
         }
       }
     }

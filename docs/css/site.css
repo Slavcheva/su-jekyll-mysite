@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext");
 @import url("https://fonts.googleapis.com/css?family=Signika&display=swap");
 :root {
@@ -19,15 +18,11 @@ html {
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif; }
 
-@media (min-width: 1025px) {
-  html {
-    font-size: calc(var(--font-size-body) * 2); } }
-
-@media (min-width: 1024px) {
+@media (max-width: 1600px) {
   html {
     font-size: calc(var(--font-size-body) * 1.8); } }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   html {
     font-size: calc(var(--font-size-body) * 1.6); } }
 
@@ -38,6 +33,10 @@ html {
 @media (max-width: 640px) {
   html {
     font-size: calc(var(--font-size-body) * 1.2); } }
+
+@media (max-width: 480px) {
+  html {
+    font-size: var(--font-size-body); } }
 
 body, table, form, select, option, input, textarea {
   font: inherit;
@@ -109,19 +108,6 @@ blockquote .author:before {
     color: var(--color-link-default);
     border-color: var(--color-link-default); }
 
-.go-top {
-  display: block;
-  color: var(--color-elements-bgrd);
-  position: fixed;
-  bottom: 5vh;
-  right: 1vw;
-  z-index: 9;
-  width: 3em;
-  height: auto; }
-
-.fa-arrow-alt-circle-up {
-  font-size: 2.5em; }
-
 form {
   border-radius: 0.5em;
   border: 2px solid var(--color-link-default);
@@ -158,33 +144,15 @@ form {
       form input, form textarea, form select {
         width: 100%; } }
 
-@media (min-width: 1025px) {
-  .site {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 4em;
-    grid-template-areas: "header" "nav" "main" "footer"; }
-    .site .site-header {
-      grid-area: header; }
-    .site .site-main {
-      grid-area: main; }
-    .site .site-footer {
-      grid-area: footer; }
-    .site .site-header {
-      display: flex;
-      align-items: center; }
-    .site .site-header nav {
-      margin-left: auto; } }
-
-.site .content {
-  padding: 0 4em  4em;
+.content {
+  padding: 0 4em 4em;
   color: var(--color-link-default); }
 
-.site h2 {
+h2 {
   color: var(--color-link-default);
   text-align: center;
   margin-top: 1em; }
-  .site h2:after {
+  h2:after {
     display: block;
     content: '';
     width: 2em;
@@ -193,17 +161,35 @@ form {
     margin: 0.5em auto 2em auto; }
 
 .site-header {
+  display: flex;
   border-bottom: 1px solid var(--color-border-default);
-  background: var(--color-elements-bgrd); }
-  @media (max-width: 1023px) {
+  background: var(--color-elements-bgrd);
+  align-items: center; }
+  .site-header nav {
+    margin-left: auto; }
+  @media (max-width: 960px) {
     .site-header {
       display: block;
       text-align: center; }
       .site-header .site-title {
         padding-left: 0; }
       .site-header .site-nav ul {
+        display: flex;
         padding-bottom: 1em;
-        text-align: center; } }
+        justify-content: center; }
+        .site-header .site-nav ul li {
+          display: inline; } }
+  @media (max-width: 640px) {
+    .site-header {
+      display: block;
+      text-align: center; }
+      .site-header .site-title {
+        padding-left: 0; }
+      .site-header .site-nav ul {
+        display: block;
+        text-align: center; }
+        .site-header .site-nav ul li {
+          padding-bottom: 1em; } }
 
 .site-title {
   margin: 0;
@@ -214,30 +200,37 @@ form {
     padding: 0.5em 0;
     color: var(--color-elements-text); }
 
-.site-footer {
+.site-main section {
+  position: relative; }
+
+.site .site-footer {
   border-top: 1px solid var(--color-border-default);
   margin-top: -10px;
   padding-top: calc(var(--spacing-layout-elements) / 2);
   background: var(--color-elements-bgrd);
   color: var(--color-elements-text);
-  flex-grow: 1; }
-  .site-footer div {
+  flex-grow: 1;
+  position: fixed;
+  width: 100%;
+  bottom: 0; }
+  .site .site-footer div {
     padding: calc(var(--spacing-layout-elements) / 2);
-    display: flex; }
-    .site-footer div p {
+    display: flex;
+    font-size: calc(var(--font-size-body * 1.2)); }
+    .site .site-footer div p {
       padding-left: calc(var(--spacing-layout-elements));
       padding-bottom: 0; }
-      .site-footer div p a {
+      .site .site-footer div p a {
         color: var(--color-body-text);
         padding-left: 0.5em; }
-    .site-footer div .social {
+    .site .site-footer div .social {
       font-size: calc(var(--spacing-layout-elements) / 1.5);
       margin-left: auto; }
   @media (max-width: 960px) {
-    .site-footer .footer {
+    .site .site-footer .footer {
       display: block;
       text-align: center; }
-      .site-footer .footer p {
+      .site .site-footer .footer p {
         padding-bottom: 0.3em;
         padding-left: 0; } }
 
@@ -290,9 +283,18 @@ form {
   @media (max-width: 960px) {
     .index .ground .ground {
       font-size: 2em; } }
+  @media (max-width: 480px) {
+    .index .ground {
+      top: 40%; }
+      .index .ground h3 {
+        font-size: 1.5em; }
+      .index .ground p {
+        font-size: 1em; } }
 
 .prices {
-  padding: 2em 0 2em 0; }
+  padding: 2em; }
+  .prices .space {
+    height: 3em; }
 
 ul {
   display: flex;
@@ -327,7 +329,7 @@ li {
     left: 0;
     width: 100%;
     text-align: center; }
-  @media (max-width: 1023px) {
+  @media (max-width: 640px) {
     .site-nav {
       display: flex;
       flex-direction: row;
@@ -335,7 +337,7 @@ li {
       padding: 0; }
       .site-nav ul {
         padding-bottom: 1em; } }
-  @media (max-width: 960px) {
+  @media (max-width: 480px) {
     .site-nav ul {
       display: block;
       text-align: center; }
@@ -376,7 +378,7 @@ li {
     left: 0;
     width: 100%;
     text-align: center; }
-  @media (max-width: 1023px) {
+  @media (max-width: 960px) {
     .sub-nav,
     .about-nav {
       display: flex;
@@ -386,7 +388,7 @@ li {
       .sub-nav ul,
       .about-nav ul {
         padding-bottom: 1em; } }
-  @media (max-width: 960px) {
+  @media (max-width: 640px) {
     .sub-nav ul,
     .about-nav ul {
       display: block;
@@ -425,9 +427,7 @@ body.loaded .site-main {
 
 .index-p {
   -webkit-animation: index-title 1s ease-in-out;
-          animation: index-title 1s ease-in-out;
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s; }
+          animation: index-title 1s ease-in-out; }
 
 @-webkit-keyframes index-title {
   0% {
@@ -473,19 +473,6 @@ body.loaded .site-main {
     transform: translateZ(0) translateY(0);
     opacity: 1; } }
 
-/* ----------------------------------------------
-//въртене
- * ---------------------------------------------- */
-/**
- * ----------------------------------------
- * от вътре навън
- * ----------------------------------------
- */
-/**
- * ----------------------------------------
- * разместване на буквите
- * ----------------------------------------
-// */
 .about-plan {
   margin-top: -4em;
   margin-left: -5em; }

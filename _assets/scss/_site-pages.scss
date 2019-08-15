@@ -71,9 +71,22 @@
         font-size: 2em;
       }
     }
+    @include bp(small-phone) {
+      h3 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1em;
+      }
+      top: 40%;
+
+    }
   }
 }
 
 .prices {
-  padding: 2em 0 2em 0;
+  padding: 2em;
+  .space{
+    height: 3em;
+  }
 }

@@ -14,17 +14,11 @@ html {
 
 @include bp(desktop) {
   html {
-    font-size: calc(var(--font-size-body) * 2);
+    font-size: calc(var(--font-size-body) * 1.8);
   }
 }
 
 @include bp(laptop) {
-  html {
-      font-size: calc(var(--font-size-body) * 1.8);
-  }
-}
-
-@include bp(mobile) {
   html {
       font-size: calc(var(--font-size-body) * 1.6);
   }
@@ -39,6 +33,11 @@ html {
 @include bp(phone) {
   html {
       font-size: calc(var(--font-size-body) * 1.2);
+  }
+}
+@include bp(small-phone) {
+  html {
+      font-size: var(--font-size-body);
   }
 }
 
