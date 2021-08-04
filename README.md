@@ -2,7 +2,7 @@
 
 https://slavcheva.github.io/su-jekyll-myproject/
 
-jekyll generated site with custom theme.Build as a project for the Front-End (HTML & CSS) course at SoftUni.
+jekyll generated site with custom theme. Build as a project for the Front-End (HTML & CSS) course at SoftUni.
 
 The Dream Garden Company web site. 
 
